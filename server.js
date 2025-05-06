@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const connectToMongo = require('./app/connection/db');
 const cors = require('cors');
 const app = express();
-const port = 8080;
+const port = 3000;
 
 
 // Middleware
